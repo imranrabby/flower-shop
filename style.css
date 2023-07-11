@@ -217,3 +217,17 @@ input[type=submit]{
     color: white;
     font-weight: 600;
 }
+
+/* ========================footer=================== */
+footer{
+    background-color: #111010;
+    color: #fff;
+}
+footer .container{
+    height: 50vh;
+    justify-content: center;
+}
+.copyright{
+    padding: 0;
+
+}
