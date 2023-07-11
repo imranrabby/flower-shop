@@ -82,7 +82,7 @@ h3{
 
 /* ===============section2====================== */
 .section2 .container{
-    padding: 50px;
+    padding: 50px 0;
 }
 .section2 p{
     padding: 10px 0;
@@ -98,7 +98,7 @@ h3{
     height: 400px;
     width: 32%;
 }
-.ibox{
+.section2 .ibox{
     width: 100%;
     height: 80%;
     background-color: aquamarine;
@@ -141,4 +141,50 @@ h3{
     color: #545454;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* ===============section4==================== */
+.section4{
+    background-color: #FCEEF1;
+}
+
+.section4 .container{
+    height: 50vh;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.s4box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =====================section5-============ */
+.section5 .container{
+    padding: 50px 0;
+}
+.section5 p{
+    padding: 10px 0;
+}
+.section5 .s2box{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.section5 .s2boxes{
+    height: 400px;
+    width: 24%;
+}
+.section5 .ibox{
+    width: 100%;
+    height: 80%;
+}
+.ibox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
